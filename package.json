@@ -1,6 +1,6 @@
 {
   "name": "easy-discord-chatbot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A basic and easy to use discord chatbot module!",
   "main": "index.js",
   "scripts": {
