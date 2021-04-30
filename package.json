@@ -1,0 +1,28 @@
+{
+  "name": "discordchatbot",
+  "version": "0.0.1",
+  "description": "A basic and easy to use discord chatbot module!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLastGamer18/discordchatbot"
+  },
+  "bugs": {
+    "url": "https://github.com/TheLastGamer18/discordchatbot/issues"
+  },
+  "homepage": "https://github.com/TheLastGamer18/discordchatbot#readme",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "chatbot",
+    "chat",
+    "djs-chatbot",
+    "discord-chatbot"
+  ]
+}
