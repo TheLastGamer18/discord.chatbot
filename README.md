@@ -12,7 +12,7 @@
 ```javascript
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const Chat = require("discord.chatbot");
+const Chat = require("easy-discord-chatbot");
 const chat = new Chat({ name: "your bot name" });
 
 client.on("ready", () => {
@@ -32,7 +32,7 @@ client.login("Your Token Here");
 # Constructor options.
 
 ```javascript
-const Chat = require("discord.chatbot");
+const Chat = require("easy-discord-chatbot");
 const chat = new Chat({ name: "your bot name" });
 ```
 
@@ -42,8 +42,8 @@ const chat = new Chat({ name: "your bot name" });
 
 # Note:
 
-- If you are facing any type of bugs while using this package, report them [here](https://github.com/TheLastGamer18/discord.chatbot/issues).
+- If you are facing any type of bugs while using this package, report them [here](https://github.com/TheLastGamer18/easy-discord-chatbot/issues).
 
 <br>
 
-# Want to contribute? Feel free to make a pull request [here](https://github.com/TheLastGamer18/discord.chatbot/) and I will be happy to review it.
+# Want to contribute? Feel free to make a pull request [here](https://github.com/TheLastGamer18/easy-discord-chatbot/) and I will be happy to review it.
