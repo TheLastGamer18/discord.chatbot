@@ -20,6 +20,7 @@ client.on("ready", () => {
 });
 
 client.on("message", async message => {
+  if(message.author.bot) return;
   let reply = await chat.chat(message.content);
   message.channel.send(reply);
 });
