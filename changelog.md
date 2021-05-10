@@ -6,3 +6,6 @@
 
 # 0.0.3
 - Fixed readme code, now it will ignore bots and prevent an infinite loop.
+
+# 0.0.4
+- Improved readme code.
