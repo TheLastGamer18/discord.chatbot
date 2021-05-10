@@ -20,9 +20,10 @@ client.on("ready", () => {
 });
 
 client.on("message", async message => {
-  if(message.author.bot) return;
-  let reply = await chat.chat(message.content);
-  message.channel.send(reply);
+  if(message.channel.name === "chat" && !message.author.bot) {    
+    let reply = await chat.chat(message.content)
+    message.channel.send(reply)
+  }
 });
 
 client.login("Your Token Here");
